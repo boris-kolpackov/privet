@@ -1,0 +1,11 @@
+: 1
+name: privet
+version: 0.1.0-a.0.z
+summary: UTF-8 string literal test
+license: MIT
+description-file: README.md
+url: https://github.com/boris-kolpackov/privet
+email: boris@codesynthesis.com
+builds: all
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0

@@ -1,0 +1,5 @@
+exe{privet}: {hxx ixx txx cxx}{**} testscript
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"
+
+cxx.coptions += ($cxx.id == 'msvc' ? /utf-8 : -finput-charset=UTF-8)
